@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
-const AppReducer = () => {
-  return (
-    <div>AppReducer</div>
-  )
-}
+const AppReducer = (state, action) => {
+	switch (action.type) {
+		default:
+			return state;
+	}
+};
 
-export default AppReducer
+export default AppReducer;
